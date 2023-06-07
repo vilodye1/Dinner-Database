@@ -8,7 +8,7 @@
             :to="{name: 'byLetter', params: {letter}}" 
             :key="letter" 
             v-for="letter of letters">
-                <p class="hover:text-orange-300">{{ letter }}</p>
+                <p class="hover:text-orange-400 transition-colors text-xl">{{ letter }}</p>
             </router-link>
         </div>
 
